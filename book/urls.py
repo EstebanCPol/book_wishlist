@@ -20,7 +20,7 @@ from wishlist.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/',include('wishlist.urls')),
-    path('registro/', RegisterView.as_view()),
+    path('signup/', RegisterView.as_view()),
 	path('login/', LoginView.as_view()),
 	path('logout/',LogoutView.as_view()),
     path('',Index.as_view()),
