@@ -12,5 +12,4 @@ urlpatterns = [
     path('list-bookshelve-mylibrary/<str:apikey>',List_BookShelves_Private.as_view()),
     path('callAPI/',callAPI.as_view()),
     path('connectAPI/',connectBigQuery.as_view()),
-    path('gettoken/',getToken.as_view()),
 ]
