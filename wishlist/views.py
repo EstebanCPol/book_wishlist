@@ -284,12 +284,3 @@ class connectBigQuery(APIView):
         # Print the results.
         for row in query_job.result():  # Wait for the job to complete.
             print("{}: {}".format(row["name"], row["total"]))
-
-
-class getToken(APIView):
-    def get(self,request):
-        target_audience = 'http://localhost:8000/'
-
-        creds = service_account.IDTokenCredentials.from_service_account_file(
-        r'C:\Users\Esteban Henao\Documents\book_wishlist4\client_secrets.json',
-        target_audience=target_audience)
