@@ -87,11 +87,11 @@ Response
 
 ## Consultar Libros por titulo, autor y editorial
 
-Endpoint (http://localhost:8000/api/search-book/<titulo>/<autor>/<editorial>/<key=ApiKey>).
+Endpoint (http://localhost:8000/api/search-book/titulo/autor/editorial/key=ApiKey).
 
 Metodo GET
 
-Reemplace <titulo>,<autor>,<editorial> por los datos que desea buscar, además reemplace <key=ApiKey> por la apikey correspondiente, el body es vacío.
+Reemplace "titulo","autor","editorial" por los datos que desea buscar, además reemplace "key=ApiKey" por la apikey correspondiente, el body es vacío.
 
 Request
 
@@ -113,11 +113,11 @@ Response
 
 ## Consultar Libros por titulo y autor
 
-Endpoint (http://localhost:8000/api/search-bookTA/<titulo>/<autor>/<key=ApiKey>).
+Endpoint (http://localhost:8000/api/search-bookTA/titulo/autor/key=ApiKey).
 
 Metodo GET
 
-Reemplace <titulo> y <autor> por los datos que desea buscar, además reemplace <key=ApiKey> por la apikey correspondiente, el body es vacío.
+Reemplace "titulo" y "autor" por los datos que desea buscar, además reemplace "key=ApiKey" por la apikey correspondiente, el body es vacío.
 
 Request
 
@@ -138,11 +138,11 @@ Response
 
 ## Consultar Libros por titulo y editorial
 
-Endpoint (http://localhost:8000/api/search-bookTP/<titulo>/<editorial>/<key=ApiKey>).
+Endpoint (http://localhost:8000/api/search-bookTP/titulo/editorial/key=ApiKey).
 
 Metodo GET
 
-Reemplace <titulo> y <editorial> por los datos que desea buscar, además reemplace <key=ApiKey> por la apikey correspondiente, el body es vacío.
+Reemplace "titulo" y "editorial" por los datos que desea buscar, además reemplace "key=ApiKey" por la apikey correspondiente, el body es vacío.
 
 Request
 
@@ -161,11 +161,11 @@ Response
 
 ## Consultar Libros por autor y editorial
 
-Endpoint (http://localhost:8000/api/search-bookAP/<autor>/<editorial>/<key=ApiKey>).
+Endpoint (http://localhost:8000/api/search-bookAP/autor/editorial/key=ApiKey).
 
 Metodo GET
 
-Reemplace <autor> y <editorial> por los datos que desea buscar, además reemplace <key=ApiKey> por la apikey correspondiente, el body es vacío.
+Reemplace "autor" y "editorial" por los datos que desea buscar, además reemplace "key=ApiKey" por la apikey correspondiente, el body es vacío.
 
 Request
 
@@ -186,11 +186,11 @@ Response
 
 ## Consultar todas las estanterías publicas de un usuario
 
-Endpoint (http://localhost:8000/api/my-bookshelve-all/<user>/<key=ApiKey>).
+Endpoint (http://localhost:8000/api/my-bookshelve-all/user/key=ApiKey).
 
 Metodo GET
 
-Reemplace <user> con el ID del usuario al que desea consultar la información, además reemplace <key=ApiKey> por la apikey correspondiente, el body es vacío.
+Reemplace "user" con el ID del usuario al que desea consultar la información, además reemplace "key=ApiKey" por la apikey correspondiente, el body es vacío.
 
 Request
 
@@ -249,11 +249,11 @@ Response
 
 ## Consultar estanterías especificas publicas de un usuario
 
-Endpoint (http://localhost:8000/api/my-bookshelve-specific/<user>/<bookshelve>/<key=ApiKey>).
+Endpoint (http://localhost:8000/api/my-bookshelve-specific/user/bookshelve/key=ApiKey).
 
 Metodo GET
 
-Reemplace <user> con el ID del usuario al que desea consultar la información y <bookshelve> con el numero de la estantería (los números de las estanterías publicas son 0,2,3,4) que desea consultar, además reemplace <key=ApiKey> por la apikey correspondiente, el body es vacío.
+Reemplace "user" con el ID del usuario al que desea consultar la información y "bookshelve" con el numero de la estantería (los números de las estanterías publicas son 0,2,3,4) que desea consultar, además reemplace "key=ApiKey" por la apikey correspondiente, el body es vacío.
 
 Request
 
@@ -277,11 +277,11 @@ Response
 
 ## Consultar libros almacenados en una estantería especifica
 
-Endpoint (http://localhost:8000/api/list-bookshelve/<user>/<bookshelve>/<key=ApiKey>).
+Endpoint (http://localhost:8000/api/list-bookshelve/user/bookshelve/key=ApiKey).
 
 Metodo GET
 
-Reemplace <user> con el ID del usuario al que desea consultar la información y <bookshelve> con el numero de la estantería (los números de las estanterías publicas son 0,2,3,4) que desea consultar, además reemplace <key=ApiKey> por la apikey correspondiente, el body es vacío.
+Reemplace "user" con el ID del usuario al que desea consultar la información y "bookshelve" con el numero de la estantería (los números de las estanterías publicas son 0,2,3,4) que desea consultar, además reemplace "key=ApiKey" por la apikey correspondiente, el body es vacío.
 
 Request
 
